@@ -17,4 +17,5 @@ class TesView(APIView):
             serializer.save()
             return Response(serializer.data)
         return Response(serializer.errors)
-    
+
+##From scratch 

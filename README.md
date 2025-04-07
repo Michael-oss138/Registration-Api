@@ -62,9 +62,15 @@ INSTALLED_APPS = [
     ''
 ]
 
-then start your server again.**
+then start your server again.
 
 
-Pull a repository**
+**Pull a repository**
 
 Create a directory locally where you want the repository to be cloned to
+
+mkdir your directory name (create a directory ) // or you can use the normal createing of folder step 
+
+cd your directory name (navigate into the directory) // or you use cd the directory path
+
+

@@ -62,5 +62,9 @@ INSTALLED_APPS = [
     ''
 ]
 
-then start your server again.
+then start your server again.**
 
+
+Pull a repository**
+
+Create a directory locally where you want the repository to be cloned to

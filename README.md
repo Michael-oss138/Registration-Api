@@ -73,4 +73,19 @@ mkdir your directory name (create a directory ) // or you can use the normal cre
 
 cd your directory name (navigate into the directory) // or you use cd the directory path
 
+Click on the green code button you see 
 
+copy the HTTPS url 
+
+open your command prompt or terminal 
+Nacigate to the directory where you want to clone the repository 
+
+use the [
+
+      git clone https://github.com/username/repository-name.git  ##for HTTPS
+      git clone git@github.com:username/repository-name.git      ##for SSH
+]
+
+**Navigate to the Repository Directory**
+
+cd repositoy name.

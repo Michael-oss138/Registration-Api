@@ -26,7 +26,41 @@ venv\Script\activate - for windows
 
 Install django again to  be sure
 might see equirements already satisfied, but to be sure, try resinstalling
+
 Create a django project
 
 django-admin startproject myproject 
+
+cd into the myproject folder 
+
+Then create an app
+
+remain on your terminal or command prompt 
+
+python3 manage.py startapp myapp
+
+Start your server 
+python3 manage.py runserver 
+
+
+**ADD INSTALLED LIBRARIES 
+**
+
+Go to your settings.py file and look for the Installed apps
+and include the app the also the drf
+
+INSTALLED_APPS = [
+
+    'django.contrib.admin',
+    'django.contrib.auth',
+    'django.contrib.contenttypes',
+    'django.contrib.sessions',
+    'django.contrib.messages',
+    'django.contrib.staticfiles',
+    'myapp',
+    'django rest framework',
+    ''
+]
+
+then start your server again.
 
